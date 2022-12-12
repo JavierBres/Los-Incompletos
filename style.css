@@ -1,0 +1,21 @@
+.bar-nav{
+height: 100px;
+background-color:#ff7f99;
+
+
+}
+.menu{
+
+    
+    
+}
+.item{
+    display:inline;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-decoration-color: white;
+    
+    
+    
+
+}
