@@ -1,21 +1,53 @@
-.bar-nav{
-height: 100px;
-background-color:#ff7f99;
 
+#container {
+    height: 100px;
+    background-color:#ff7f99;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align:center;
+}
+.wecan{
+    color:yellow;
+    padding: 10px;
+    width: 15%;
+    
+}
+span { 
+    color: white;
 
 }
 .menu{
+    width: 70%;
+    display:flex;
+    color:white;
+    padding:30px;
+    width: 70%;
+    list-style: none;
+    margin-left: 700px;
+}
 
+.aitems{
     
+    padding: 10px;
     
 }
-.item{
-    display:inline;
-    list-style-type: none;
-    margin: 0.5em auto;
-    text-decoration-color: white;
-    
-    
-    
 
+.buttom{
+    border: 1px solid #f09d8a;
+    opacity: 75%;
+    border-color:yellow;
+    padding: 5px; 
+    background-color: #f09d8a;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    border-radius: 40px; 
+    margin-left: 80%;
+    position:absolute;
+    margin-top: 3%;
+    width: 15%;
+    
 }
+
