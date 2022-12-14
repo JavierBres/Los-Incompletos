@@ -29,8 +29,7 @@ span {
 }
 
 .aitems{
-    
-    padding: 10px;
+     padding: 10px;
     
 }
 
@@ -50,4 +49,31 @@ span {
     width: 15%;
     
 }
+.box{
+    background-color: #ff7f99;
+    height: 400px;
+    margin-top: 60%;
+    display: flex;
+    
+    
+}
 
+.image{
+    display:inline-block;
+    padding:60px;
+    text-align: center;
+    
+
+
+}
+
+.N{
+    color:#ffffff
+
+}
+
+.L{
+    height: 20px;
+    width: 20px;
+    
+}
