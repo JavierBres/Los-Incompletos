@@ -7,8 +7,41 @@
     flex-direction: row;
     text-align:center;
     overflow: hidden;
-
 }
+
+.pareja{
+    width: 600px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 70px;
+    flex-direction: column;
+    position: absolute;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+} 
+.title{
+    font-family: 'Jost', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: #FF7F99;
+    margin-top: 75px;
+    margin-left: 700px;
+    margin-bottom: 0%;
+    line-height: 0.8em;
+   
+}
+
+.subtitle{
+    font-family: 'Jost', sans-serif; 
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: -200px;
+    padding-left: 700px;
+    
+}
+
 .wecan{
     color:yellow;
     padding: 10px;
@@ -51,7 +84,7 @@ span {
 .box{
     background-color: #ff7f99;
     height: 400px;
-    margin-top: 60%;
+    margin-top: 30%;
     display: flex;
     font-family: 'Jost', sans-serif;
 }
