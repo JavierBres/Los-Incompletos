@@ -2,20 +2,65 @@
 height: 100px;
 background-color:#ff7f99;
 
-
 }
-.menu{
 
-    
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.pareja{
+    width: 600px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 80px;
+    flex-direction: column;
+    position: absolute;
+  
+}
+
+.drop{
+    width: 600px;
+    height: 600px;
+    background-color: #FF7F99;
+    border-bottom-left-radius: 400px;
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    margin-top: 200px;
+    flex-direction: column;
+    position: absolute;
     
 }
-.item{
-    display:inline;
-    list-style-type: none;
-    margin: 0.5em auto;
-    text-decoration-color: white;
+ 
+ .text{
+    display: flex;
+    flex-direction: column;
+  
+ }
+ .title{
+     font-family: 'Jost', sans-serif;
+     font-size: 100px;
+     font-weight: 300;
+     color: #FF7F99;
+     margin-top: 200px;
+     margin-left: 700px;
+     margin-bottom: 0%;
+     line-height: 0.8em;
+     
+     
     
-    
-    
-
 }
+
+ .subtitle{
+     font-family: 'Jost', sans-serif; 
+     font-size: 25px;
+     font-weight: 200;
+     padding-top: -200px;
+     padding-left: 700px;
+     
+    
+   
+}
+ 
+ 
