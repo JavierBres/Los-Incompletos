@@ -5,8 +5,9 @@
     font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     text-align:center;
+    overflow: hidden;
+
 }
 .wecan{
     color:yellow;
@@ -23,7 +24,6 @@ span {
     display:flex;
     color:white;
     padding:30px;
-    width: 70%;
     list-style: none;
     margin-left: 700px;
 }
@@ -54,7 +54,7 @@ span {
     height: 400px;
     margin-top: 60%;
     display: flex;
-    
+    font-family: 'Jost', sans-serif;
     
 }
 
